@@ -1,0 +1,74 @@
+/* <= 522px */
+header{ display: flex; flex-direction: column; width: 100%; align-items: center; overflow: hidden; }
+.brand-logo{ display: flex; align-items: center; width: 95%; }
+.contact-info{ margin-left: 40px; display: flex; align-items: center; text-align: center; width: 95%; }
+.sidebar{ position: fixed; width: 34%; height: 300px; right: 10px; top: 60px; z-index: 999; display: none; flex-direction: column; align-items: stretch; padding: 12px; gap: 8px; border-radius: 12px; background: linear-gradient(135deg, rgba(90,13,13,0.95), rgba(122,26,26,0.95)); box-shadow: 0 10px 24px rgba(0,0,0,0.35); backdrop-filter: blur(6px); transform: translateY(-8px); opacity: 0; transition: transform .2s ease, opacity .2s ease; overflow: hidden; }
+.sidebar.open{ transform: translateY(0); opacity: 1; }
+.sidebar-backdrop{ position: fixed; inset: 0; background: rgba(0,0,0,0.25); display: none; z-index: 998; }
+.sidebar li a{ font-size: 16px; font-family: Arial, sans-serif; font-weight: 700; padding: 6px 8px; }
+.dropdown-logo{ height: 20px; }
+.contact-info h3{ font-size: 15px; }
+.contact-info hr{ width: 50%; }
+.contact-info h1{ font-size: 35px; }
+.contact-info p{ font-size: 12px; }
+nav .toggle{ display: flex; margin-right: 10px; }
+nav ul li{ font-size: 12px; display: none; }
+.hero-section{ display: flex; flex-direction: column; align-items: center; }
+.hero-banner{ width: 95%; }
+.hero-form{ width: 95%; padding-bottom: 20px; }
+.hero-query-label h2{ font-size: 12px; font-family: sans-serif; color: white; }
+.hero-query{ margin-bottom: 0; }
+.hero-query h6{ font-size: 15px; margin-bottom: 0; margin-left: 50px; }
+.hero-query span{ font-size: 25px; }
+.hero-info p{ font-size: 12px; }
+.form-fields{ font-size: 9px; }
+textarea{ padding-bottom: 20px; }
+.privacy-note p{ font-size: 10px; }
+.privacy-note button{ font-size: 12px; }
+.features-section{ display: flex; flex-direction: column; align-items: center; gap: 50px; }
+.dui-card{ width: 95%; }
+.dui-card-head h1{ font-size: 20px; }
+.dui-card-head h2{ font-size: 15px; }
+.dui-card-copy p{ font-size: 12px; letter-spacing: 1px; }
+.dui-card-cta hr{ margin-left: 100px; }
+.dui-card-cta button{ margin-left: 150px; font-size: 12px; }
+.dui-card-cta button img{ height: 10px; }
+.blog-card{ width: 95%; border-top: 2px solid rgb(112, 110, 110); border-bottom: 2px solid rgb(112, 110, 110); border-left: none; border-right: none; }
+.blog-card-top{ padding-bottom: 20px; }
+.blog-card-top h1{ font-size: 20px; }
+.blog-card-top p{ font-size: 12px; letter-spacing: 1px; }
+.cases-card h1{ font-size: 20px; }
+.cases-card p{ font-size: 12px; letter-spacing: 1px; }
+.blog-card-top button{ font-size: 12px; margin-left: 80px; }
+.blog-card-top button img{ height: 10px; }
+.cases-card{ padding-bottom: 20px; }
+.cases-card button{ font-size: 12px; margin-left: 80px; }
+.cases-card button img{ height: 10px; }
+.creds-section{ width: 95%; }
+.creds-copy h1{ font-size: 20px; }
+.creds-copy p{ font-size: 12px; }
+.creds-copy button{ margin-left: 150px; font-size: 12px; }
+.practice-section{ display: flex; flex-direction: column; width: 100%; align-items: center; }
+.practice-left{ width: 60%; }
+.practice-left h1{ font-size: 20px; height: auto; }
+.practice-button-head{ height: auto; width: 100%; margin: 0; }
+.practice-button-head h1{ font-size: 15px; }
+.practice-button-foot{ margin: 0; height: auto; width: 100%; }
+.practice-button-foot p{ margin-top: 35px; font-size: 12px; padding-bottom: 0; }
+.practice-button-foot img{ margin-top: 35px; }
+.practice-button-shadow{ width: 90%; margin: 0; margin-top: -3px; }
+.practice-button-shadow img{ width: 90%; }
+.learn-section{ width: 100%; }
+.learn-section h1{ font-size: 20px; }
+.learn-section h2{ font-size: 15px; }
+.content-center{ width: 100%; display: flex; flex-direction: column; align-items: center; }
+.content-center h1{ font-size: 20px; }
+.content-center p{ font-size: 11px; margin-right: 10px; }
+.aside-right{ width: 100%; align-items: center; display: flex; flex-direction: column; }
+.aside-card{ width: 90%; }
+.aside-card h1{ font-size: 20px; }
+.aside-card p{ font-size: 12px; }
+.aside-card button{ font-size: 12px; margin-left: 70px; }
+.social-follow h1{ font-size: 20px; }
+.social-shadow{ margin-top: 0px; }
+.social-icons{ gap: 20px; }

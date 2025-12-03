@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keefer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive-desktop-up.css" media="(min-width:578px)">
+    <link rel="stylesheet" href="responsive-laptop.css" media="(max-width:1237px)">
+    <link rel="stylesheet" href="responsive-tablet-lg.css" media="(max-width:1132px)">
+    <link rel="stylesheet" href="responsive-tablet.css" media="(max-width:1076px)">
+    <link rel="stylesheet" href="responsive-tablet-sm.css" media="(max-width:992px)">
+    <link rel="stylesheet" href="responsive-phablet.css" media="(max-width:866px)">
+    <link rel="stylesheet" href="responsive-mobile.css" media="(max-width:576px)">
+    <link rel="stylesheet" href="responsive-mobile-sm.css" media="(max-width:522px)">
+
+
+</head>
+
+<body>
+    <section class="layout-shell">
+        <header>
+            <!--Logo Div-->
+            <div class="brand-logo">
+                <img src="logo.png">
+            </div>
+            <div class="contact-info">
+                <h3>CALL OUR OFFICES NOW!</h3>
+                <hr>
+                <h1>540.433.6906</h1>
+                <p>Get Your Question Answered Fast</p>
+            </div>
+
+        </header>
+        <nav>
+            
+            <ul>
+               
+                <li><a class="nav-home" href="#">HOME</a></li>
+                <li><a href="#">BIOGRAPHY</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">AREAS WE SERVE</a></li>
+                <li><a href="#">LIBRARY</a></li>
+                <li><a href="#">CONTACT</a></li>
+                
+            </ul>
+            <div onclick=showssidebar()  class="toggle"><a href="#"><img  src="responsive_menu_icon.png"></a>
+            </div>
+            <ul class="sidebar">
+                 <li class="dropdown-brand"><img class="dropdown-logo" src="logo.png" alt="Keefer"></li>
+                 <li><a class="nav-home" href="#">HOME</a></li>
+                 <li><a href="#">BIOGRAPHY</a></li>
+                 <li><a href="#">BLOG</a></li>
+                 <li><a href="#">AREAS WE SERVE</a></li>
+                 <li><a href="#">LIBRARY</a></li>
+                 <li><a href="#">CONTACT</a></li>
+            </ul>
+            
+
+        </nav>
+        <div class="sidebar-backdrop" onclick="hidesidebar()"></div>
+        <!--Image Section-->
+        <section class="hero-section">
+            <div class="hero-banner">
+                <img src="gurantee_banner.gif">
+            </div>
+            <!--Right Image Div-->
+            <div class="hero-form">
+                <div class="hero-query">
+                    <div class="hero-query-label">
+                        <h2>QUESTIONS?</h2>
+                    </div>
+                    <h6>Have a <span>Question</span><br>About Your Case?</h6>
+
+                </div>
+                <div class="hero-info">
+                    <p>Enter your information and get your questions answered<br>quickly and discreetly or call us
+                        at:<span class="phone-number">540.433.6906</span> </p>
+                </div>
+                <!--Form container-->
+                <div class="hero-formpanel">
+                    <div class="form-fields">
+                        <form>
+                            <label for="NAME">NAME:</label>
+                            <input class="input-name" type="text" id="NAME">
+                            <label for="EMAIL">EMAIL:</label>
+                            <input class="input-email" type="text" id="EMAIL">
+                            <label for="PHONE">PHONE:</label>
+                            <input type="number" id="PHONE">
+                        </form>
+                    </div>
+                    <div class="form-seal">
+                        <img src="confidential.png">
+                    </div>
+                </div>
+                <!--Text Area-->
+                <div class="textareas">
+                    <textarea placeholder="Tell us about your case here..."></textarea>
+                </div>
+                <div class="privacy-note">
+                    <p>100% privacy Guaranteed</p>
+                    <button>Ask Us About Your Case<img src="bullet_white_lrg.png"></button>
+                </div>
+            </div>
+
+        </section>
+        <!--Second Section-->
+        <section class="features-section">
+            <!--First container-->
+            <div class="dui-card">
+                <div class="dui-card-head">
+                    <h1>CHARGED WITH <span class="dui-highlight">DUI?</span></h1>
+                    <h2>FREE CASE EVALUATION</h2>
+                </div>
+                <div class="dui-card-body">
+                <div class="dui-card-copy">
+                    <p>Being charged with a DUI<br>can be scary. Get the help<br>you deserve.</p>
+                    <p>Click here to let us know<br>how we can help you with<br>your case.</p>
+                </div>
+                <div class="dui-card-board">
+                    <img src="paste_board.gif">
+                </div>
+                </div>
+                <div class="dui-card-cta">
+                    <hr>
+                    <button>CLICK HERE<img src="bullet_white_lrg.png"></button>
+                </div>
+            </div>
+            <!--Second Container-->
+            
+            <div class="blog-card">
+                <!--First Div-->
+                <div class="blog-card-top">
+                    <div class="blog-card-text">
+                    <h1>LAW <span>BLOG</span> </h1>
+                    <p>Learn more abut<br>Virginia Traffic Laws.</p>
+                    <hr>
+                    <button>CLICK HERE<img src="bullet_white_lrg.png"></button>
+                    </div>
+                    <div class="blog-card-illustration">
+                        <img src="pic1.gif">
+                    </div>
+                </div>
+<!--Second Div-->
+                <div class="cases-card">
+                     <div class="cases-card-text">
+                    <h1>CASE <span>RESULTS</span> </h1>
+                    <p>See how we help our clients.<br>Read our latest case results.</p>
+                    <hr>
+                    <button>CLICK HERE<img src="bullet_white_lrg.png"></button>
+                    </div>
+                    <div class="cases-card-icon">
+                        <img src="order_icon.gif">
+                    </div>
+                </div>
+            </div>
+            <!--Third Container-->
+<div class="creds-section">
+    <!--First Div-->
+    <div class="creds-logos">
+
+        <img class="logo-avo" src="avo_rating_large.gif">
+        <img class="logo-college" src="national_college_small.gif">
+    </div>
+    <div class="creds-copy">
+<h1>CERTIFICATES &<br> <span>CREDENTIALS</span></h1>
+<P>Keefer Law Firm has protected the<br>rights of Virginians for over 30 years.</P>
+<hr>
+<button>LEARN MORE<img src="bullet_white_lrg.png"></button>
+    </div>
+</div>
+
+        </section>
+        <div class="section-shadow">
+            <img src="hr_shadow.png">
+        </div>
+        <!--Last Section-->
+        <section class="practice-section">
+<!--Fist Left Container-->
+<div class="practice-left">
+<h1>PRACTICE <span>AREAS</span></h1>
+<!--Button one-->
+<div class="practice-button">
+     <img class="practice-border" src="pra_bg_red.gif">
+    <div class="practice-button-body">
+       
+        <div class="practice-button-head">
+            <h1>DUI & DWI</h1>
+        </div>
+<div class="practice-button-foot">
+    <p>LEARN MORE</p>
+    <img src="bullet_red.gif">
+</div>
+
+    </div>
+</div>
+<div class="practice-button-shadow">
+    <img src="lf_bt_hr_shadow.png">
+</div>
+
+
+<!--Button Tow-->
+<div class="practice-button">
+     <img class="practice-border" src="pra_bg_red.gif">
+    <div class="practice-button-body">
+       
+        <div class="practice-button-head">
+            <h1>RECKLESS DRIVING</h1>
+        </div>
+<div class="practice-button-foot">
+    <p>LEARN MORE</p>
+    <img src="bullet_red.gif">
+</div>
+
+    </div>
+</div>
+<div class="practice-button-shadow">
+    <img src="lf_bt_hr_shadow.png">
+</div>
+
+
+<!--Button Three-->
+<div class="practice-button">
+     <img class="practice-border" src="pra_bg_red.gif">
+    <div class="practice-button-body">
+       
+        <div class="practice-button-head">
+            <h1>SPEEDING TICKETS</h1>
+        </div>
+<div class="practice-button-foot">
+    <p>LEARN MORE</p>
+    <img src="bullet_red.gif">
+</div>
+
+    </div>
+</div>
+<div class="practice-button-shadow">
+    <img src="lf_bt_hr_shadow.png">
+</div>
+
+
+<!--Button Four-->
+<div class="practice-button">
+     <img class="practice-border" src="pra_bg_red.gif">
+    <div class="practice-button-body">
+       
+        <div class="practice-button-head">
+            <h1>TRAFFIC VIOLATIONS</h1>
+        </div>
+<div class="practice-button-foot">
+    <p>LEARN MORE</p>
+    <img src="bullet_red.gif">
+</div>
+
+    </div>
+</div>
+<div class="practice-button-shadow">
+    <img src="lf_bt_hr_shadow.png">
+</div>
+
+
+
+<!--Learn More About-->
+<div class="learn-section">
+    <h1>LEARN <span>MORE</span>  ABOUT</h1>
+    <h2>MENU<br><br>AREA<br><br>HERE</h2>
+</div>
+</div>
+
+<!--Second Center Container-->
+<div class="content-center">
+<h1>< H1>PAGE TITLE HERE</h1>
+<p>Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla <r>pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris <r>nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur.<r> Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Asunt in anim uis aute<r> irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint <r>occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea<r> commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat<r> cupidatat non porident, sunt in anim id est laborum.</p>
+
+</div>
+
+
+<!--Third Right Container-->
+
+<div class="aside-right">
+    <div class="mainclient">
+<!--First div-->
+<div class="clientdiv1">
+<div class="aside-card">
+<h1>CLIENT <span>TESTIMONIALS</span></h1>
+<p>Read what others say<br>about Keefer Law Firm</p>
+ <hr>
+                    <button>CLICK HERE<img src="bullet_white_lrg.png"></button>
+</div>
+</div>
+
+<!--Second div-->
+<div class="clientdiv2">
+<div class="aside-card">
+<h1>DOWNLOAD <span>FREE</span>REPORTS</h1>
+<p>Discover the truth about<br>Virginia Law.</p>
+ <hr>
+                    <button>CLICK HERE<img src="bullet_white_lrg.png"></button>
+</div>
+</div>
+<!--Third div-->
+<div class="clientdiv3">
+<div class="aside-card">
+<h1>CONTACT <span>OUR</span>OFFICES</h1>
+<p>Get your questions<br>answered right now.</p>
+ <hr>
+                    <button>CLICK HERE<img src="bullet_white_lrg.png"></button>
+</div>
+</div>
+</div>
+
+
+<!--Certificate Images-->
+<div class="aside-badges">
+    <div class="badge-avo">
+    <img src="avo_rating_large.gif">
+    </div>
+    <div class="national">
+    <img src="national_college_large.gif">
+    </div>
+</div>
+
+<div class="social-follow">
+    <h1>FOLLOW <span>US</span></h1>
+      <hr>
+      <div class="social-shadow">
+    <img src="lf_bt_hr_shadow.png">
+    </div>
+</div>
+
+<!--Icon Div-->
+<div class="social-icons">
+<img src="fb_icon.gif">
+<img src="google_icon.gif">
+<img src="twitter_icon.gif">
+<img src="linked_icon.gif">
+</div>
+</div>
+
+        </section>
+        <!--Last Red Bottom Border-->
+        <div class="footer-stripe">
+
+        </div>
+    </section>
+
+<script>
+    function showssidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        const backdrop = document.querySelector('.sidebar-backdrop')
+        if(!sidebar) return
+        sidebar.style.display = 'flex'
+        sidebar.classList.add('open')
+        if(backdrop) backdrop.style.display = 'block'
+    }
+    function hidesidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        const backdrop = document.querySelector('.sidebar-backdrop')
+        if(!sidebar) return
+        sidebar.classList.remove('open')
+        sidebar.style.display = 'none'
+        if(backdrop) backdrop.style.display = 'none'
+    }
+</script>
+
+
+
+
+</body>
+
+</html>

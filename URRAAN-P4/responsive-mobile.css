@@ -1,0 +1,80 @@
+/* <= 576px */
+.contact-info h3{ font-size: 11px; }
+.contact-info h1{ font-size: 25px; }
+.contact-info p{ font-size: 9px; }
+nav .toggle{ display: flex; margin-right: 10px; z-index: 1001; }
+nav ul li{ display: none; }
+.sidebar{ position: fixed; width: 32%; height: 300px; right: 10px; top: 60px; z-index: 999; display: none; flex-direction: column; align-items: stretch; padding: 12px; gap: 8px; border-radius: 12px; background: linear-gradient(135deg, rgba(90,13,13,0.95), rgba(122,26,26,0.95)); box-shadow: 0 10px 24px rgba(0,0,0,0.35); backdrop-filter: blur(6px); transform: translateY(-8px); opacity: 0; transition: transform .2s ease, opacity .2s ease; overflow: hidden; }
+.sidebar.open{ transform: translateY(0); opacity: 1; }
+.dropdown-brand{ display: flex; align-items: center; gap: 8px; padding: 6px 8px; border-bottom: 1px solid rgba(255,255,255,0.15); color: #fff; }
+.dropdown-logo{ height: 22px; width: auto; border-radius: 4px; }
+.sidebar li{ display: flex; }
+.sidebar li a{ border-radius: 6px; display: flex; padding: 6px 8px; color: #fff; background: transparent; text-decoration: none; letter-spacing: .2px; font-size: 16px; font-family: Arial, sans-serif; font-weight: 700; }
+.sidebar li a:hover,
+.sidebar li a:focus,
+.sidebar li a:active{ background: rgba(0,0,0,0.20); text-decoration: none; outline: none; }
+.sidebar img{ border-radius: 6px; }
+.sidebar-backdrop{ position: fixed; inset: 0; background: rgba(0,0,0,0.25); display: none; z-index: 998; }
+.hero-section{ display: flex; flex-direction: column; align-items: center; }
+.hero-banner{ width: 95%; }
+.hero-form{ width: 95%; padding-bottom: 20px; }
+.hero-query-label h2{ font-size: 20px; font-family: sans-serif; color: white; }
+.hero-query{ margin-bottom: 0; }
+.hero-query h6{ font-size: 20px; margin-bottom: 0; margin-left: 100px; }
+.hero-query span{ font-size: 30px; }
+.hero-info p{ font-size: 15px; }
+.form-fields{ font-size: 13px; }
+textarea{ padding-bottom: 20px; }
+.privacy-note p{ font-size: 15px; }
+.privacy-note button{ font-size: 15px; }
+.features-section{ display: flex; flex-direction: column; align-items: center; gap: 50px; }
+.dui-card{ width: 95%; }
+.dui-card-head h1{ font-size: 25px; }
+.dui-card-head h2{ font-size: 20px; }
+.dui-card-copy p{ font-size: 15px; letter-spacing: 1px; }
+.dui-card-cta hr{ margin-left: 100px; }
+.dui-card-cta button{ margin-left: 150px; font-size: 15px; }
+.dui-card-cta button img{ height: 12px; }
+.blog-card{ width: 95%; border-top: 2px solid rgb(112, 110, 110); border-bottom: 2px solid rgb(112, 110, 110); border-left: none; border-right: none; }
+.blog-card-top{ padding-bottom: 20px; }
+.blog-card-top h1{ font-size: 25px; }
+.blog-card-top p{ font-size: 15px; letter-spacing: 1px; }
+.cases-card h1{ font-size: 25px; }
+.cases-card p{ font-size: 15px; letter-spacing: 1px; }
+.blog-card-top button{ font-size: 15px; margin-left: 80px; }
+.blog-card-top button img{ height: 12px; }
+.cases-card{ padding-bottom: 20px; }
+.cases-card button{ font-size: 15px; margin-left: 80px; }
+.cases-card button img{ height: 12px; }
+.creds-section{ width: 95%; }
+.creds-copy h1{ font-size: 25px; }
+.creds-copy p{ font-size: 15px; }
+.creds-copy button{ margin-left: 150px; font-size: 15px; }
+.practice-section{ display: flex; flex-direction: column; width: 100%; align-items: center; }
+.practice-left{ width: 60%; }
+.practice-left h1{ font-size: 25px; height: auto; }
+.practice-button-head{ height: auto; width: 100%; margin: 0; }
+.practice-button-head h1{ font-size: 25px; }
+.practice-button-foot{ margin: 0; height: auto; width: 100%; }
+.practice-button-foot p{ margin-top: 15px; font-size: 15px; padding-bottom: 0; }
+.practice-button-foot img{ margin-top: 15px; }
+.practice-button-shadow{ width: 100%; margin: 0; }
+.practice-button-shadow img{ width: 90%; }
+.learn-section{ width: 100%; }
+.learn-section h1{ font-size: 25px; }
+.learn-section h2{ font-size: 20px; }
+.content-center{ width: 100%; display: flex; flex-direction: column; align-items: center; }
+.content-center h1{ font-size: 25px; }
+.content-center p{ font-size: 11px; margin-right: 10px; }
+.aside-right{ width: 100%; align-items: center; display: flex; flex-direction: column; }
+.mainclient{ display: flex; flex-direction: column; width: 95%; justify-content: center; }
+.clientdiv1{ width: 95%; }
+.clientdiv2{ width: 95%; border: none; }
+.clientdiv3{ width: 95%; }
+.aside-card{ width: 90%; }
+.aside-card h1{ font-size: 25px; }
+.aside-card p{ font-size: 15px; }
+.aside-card button{ font-size: 15px; margin-left: 70px; }
+.social-follow h1{ font-size: 25px; }
+.social-shadow{ margin-top: 0px; }
+.social-icons{ gap: 20px; }

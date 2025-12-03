@@ -1,0 +1,11 @@
+.toggle img{
+    display: none;
+}
+.sidebar{
+    display: none;
+}
+.contact-info .h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #830101;
+}
