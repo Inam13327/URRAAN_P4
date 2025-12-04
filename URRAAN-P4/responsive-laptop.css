@@ -1,7 +1,5 @@
 /* <= 1237px */
-.toggle{
-    display: none;
-}
+.toggle{ display: none;}
 .contact-info h3{ font-size: 20px; }
 .contact-info h1{ font-size: 45px; }
 .contact-info p{ font-size: 16px; }
